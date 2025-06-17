@@ -1,0 +1,3 @@
+[submodule "stm32-app/tinyusb"]
+	path = stm32-app/tinyusb
+	url = https://github.com/hathach/tinyusb
