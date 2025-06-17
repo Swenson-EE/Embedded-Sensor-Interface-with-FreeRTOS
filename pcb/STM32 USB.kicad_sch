@@ -5,6 +5,312 @@
 	(uuid "c72f0800-a8f4-4891-85e5-6fbf934a5e01")
 	(paper "A4")
 	(lib_symbols
+		(symbol "222AMVBAR:222AMVBAR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "222AMVBAR"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SO4_222A-M-V-B_CTS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "222AMVBAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "222AMVBAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SO4_222A-M-V-B_CTS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "222AMVBAR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 33.02 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 2.54) (xy 19.685 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.685 2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.685 1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 -3.175) (xy 22.225 0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.685 -3.81)
+					(radius 0.635)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 -5.08) (xy 19.685 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 19.685 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -7.62) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 2.54 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 2.54 180)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1406,6 +1712,12 @@
 		(uuid "65492da1-ab8d-411d-8881-f2a86c64cacf")
 	)
 	(junction
+		(at 68.58 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72edd2aa-aba1-430c-a611-ed363b2a41d9")
+	)
+	(junction
 		(at 30.48 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1416,6 +1728,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9356c688-d62d-458a-bbb3-90e4107d3ad9")
+	)
+	(junction
+		(at 68.58 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa6a06bd-dc0e-4725-b617-852a3c2a2d90")
 	)
 	(wire
 		(pts
@@ -1526,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "370abf65-af1c-4bcf-a051-ee1b7d7a7112")
+	)
+	(wire
+		(pts
+			(xy 62.23 139.7) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4264d9a1-0271-4e63-a652-5b64436b284d")
 	)
 	(wire
 		(pts
@@ -1669,6 +1997,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 129.54) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c62c3ee-d8c0-4616-b8b1-a965b2097845")
+	)
+	(wire
+		(pts
+			(xy 62.23 132.08) (xy 68.58 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0b9c9d-d97e-4de6-bd41-b0c1e8a2ad93")
+	)
+	(wire
+		(pts
 			(xy 58.42 35.56) (xy 71.12 35.56)
 		)
 		(stroke
@@ -1759,6 +2107,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 139.7) (xy 68.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6385a80-65e8-42e9-a7e9-0729f36b382f")
+	)
+	(wire
+		(pts
 			(xy 43.18 35.56) (xy 43.18 33.02)
 		)
 		(stroke
@@ -1816,6 +2174,16 @@
 			(justify left bottom)
 		)
 		(uuid "aaa5a98a-95c4-439c-b50d-9d4237e38de9")
+	)
+	(label "NRST"
+		(at 68.58 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b79f9959-4fb4-4449-ba08-34b66b99e409")
 	)
 	(label "USB_DP"
 		(at 67.31 92.71 0)
@@ -1968,6 +2336,148 @@
 			(project "STM32 USB"
 				(path "/c72f0800-a8f4-4891-85e5-6fbf934a5e01"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "138b3f40-9aaa-4d56-adbc-b74b666d5733")
+		(property "Reference" "#PWR08"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7676ca49-5afd-4dd4-90a3-af39d88caf92")
+		)
+		(instances
+			(project ""
+				(path "/c72f0800-a8f4-4891-85e5-6fbf934a5e01"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "222AMVBAR:222AMVBAR")
+		(at 21.59 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "211f8b4d-9e4b-47e6-bba0-72f3500feda2")
+		(property "Reference" "SW1"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "222AMVBAR"
+			(at 41.91 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SO4_222A-M-V-B_CTS"
+			(at 21.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "222AMVBAR"
+			(at 21.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8056583-7633-4976-907f-07b506d861e9")
+		)
+		(pin "1"
+			(uuid "7f40d41d-6ab8-457b-b121-620609135b4a")
+		)
+		(pin "4"
+			(uuid "32b674d6-1648-48d7-8603-22722b1ecdc0")
+		)
+		(pin "3"
+			(uuid "f7481152-098a-4607-8033-e5aeb81fe4d6")
+		)
+		(instances
+			(project ""
+				(path "/c72f0800-a8f4-4891-85e5-6fbf934a5e01"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -2810,6 +3320,76 @@
 			(project "STM32 USB"
 				(path "/c72f0800-a8f4-4891-85e5-6fbf934a5e01"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5a00b71-392a-423d-8977-f215515100df")
+		(property "Reference" "C8"
+			(at 72.39 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 72.39 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 69.5452 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9c39056-da6e-4f01-89cc-d2ba62c8d74d")
+		)
+		(pin "2"
+			(uuid "87b64573-e11d-4aad-9950-fd27d0e361a8")
+		)
+		(instances
+			(project ""
+				(path "/c72f0800-a8f4-4891-85e5-6fbf934a5e01"
+					(reference "C8")
 					(unit 1)
 				)
 			)
