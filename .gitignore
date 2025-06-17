@@ -50,3 +50,16 @@
 
 # Libraries
 /lib
+
+
+# Office temp files
+~$*
+
+# Common backup/temp files
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+*.asd
+*.wbk
